@@ -5,7 +5,7 @@ using the OAuth 2.0 protocol.
 
 ## Install
 
-    $ npm install passport-1crm-oauth2
+    $ npm install passport-1crm-oauth
 
 ## Usage
 

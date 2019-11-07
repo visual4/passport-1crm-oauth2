@@ -27,7 +27,7 @@
   ],
   "license": "(MIT OR Apache-2.0)",
   "main": "./lib/passport-1crm-oauth2",
-  "name": "passport-1crm-oauth2",
+  "name": "passport-1crm-oauth",
   "repository": {
     "type": "git",
     "url": "git://github.com/visual4/passport-1crm-oauth2.git"
