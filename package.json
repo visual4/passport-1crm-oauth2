@@ -1,0 +1,39 @@
+{
+     
+  "author": {
+    "name": "brafreider",
+    "email": "support@visual4.de",
+    "url": "https://www.visual4.de"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "passport-oauth": "1.0.x"
+  },
+  "deprecated": false,
+  "description": "Passport strategy for authenticating with 1CRM using the OAuth 2.0 protocol.",
+  "devDependencies": {
+    "chai": "1.x.x",
+    "mocha": "1.x.x"
+  },
+  "homepage": "https://github.com/visual4/passport-1crm-oauth2",
+  "keywords": [
+    "passport",
+    "oauth",
+    "1CRM",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "license": "(MIT OR Apache-2.0)",
+  "main": "./lib/passport-1crm-oauth2",
+  "name": "passport-1crm-oauth2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/visual4/passport-1crm-oauth2.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.test.js"
+  },
+  "version": "1.0.0"
+}
