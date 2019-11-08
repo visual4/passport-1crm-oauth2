@@ -27,7 +27,7 @@ Applications must supply a `verify` callback which accepts an `accessToken`, `re
 * `profileURL`         optional URL where the user profile can be fetched
 
 ```javascript
-var CRMOauth2Strategy = require('passport-1crm-oauth2').Strategy;
+var CRMOauth2Strategy = require('passport-1crm-oauth').Strategy;
 passport.use("1CRM", new CRMOauth2Strategy ({
     clientID: 'yourClientId',
     clientSecret: 'yourClientSecret',
@@ -55,7 +55,7 @@ adminAuth: {
         name: "1crm_oauth2",
         label: 'mit 1CRM anmelden',
         icon: "fa-twitter",
-        strategy: require('passport-1crm-oauth2'),
+        strategy: require('passport-1crm-oauth'),
         options: {
             baseURL: 'https://demo.1crm.de',
             clientID: 'aaaa-bbbbb-ccccc',
